@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --primaryColor: rgb(255, 119, 29);
+  --bgColor: rgb(235, 235, 235);
+  --bgColor2: rgb(218, 218, 218);
+  font-family: Arial, Helvetica, sans-serif;
+  --textColor: rgb(53, 53, 53);
+  color: var(--textColor);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bgColor);
+}
+
+.header {
+  background-color: var(--bgColor2);
+  padding: 20px;
+  font-size: 2rem;
+  color: var(--primaryColor);
+}
+
+.item-section {
+  background-color: var(--bgColor);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 20px 0px rgb(158, 158, 158);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-section-head {
+  color: var(--primaryColor);
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.item {
+  background-color: rgb(219, 219, 219);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--textColor);
+  line-height: 1.5rem;
+}
